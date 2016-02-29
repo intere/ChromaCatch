@@ -109,7 +109,6 @@
 		3660D9BD1C83359F00FEE04D /* ChromaCatch */ = {
 			isa = PBXGroup;
 			children = (
-				3660DA091C83500000FEE04D /* Utilities */,
 				3660D9BE1C83359F00FEE04D /* AppDelegate.swift */,
 				3660D9F61C8336B400FEE04D /* Controllers */,
 				3660DA061C834F5D00FEE04D /* Extensions */,
@@ -118,6 +117,7 @@
 				3660D9F11C8336A200FEE04D /* Resources */,
 				3660D9F31C8336A200FEE04D /* SpriteKit */,
 				3660D9FD1C83371600FEE04D /* Storyboards */,
+				3660DA091C83500000FEE04D /* Utilities */,
 			);
 			path = ChromaCatch;
 			sourceTree = "<group>";
@@ -571,6 +571,7 @@
 				3660D9E91C83359F00FEE04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3660D9EA1C83359F00FEE04D /* Build configuration list for PBXNativeTarget "ChromaCatchTests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +580,7 @@
 				3660D9EC1C83359F00FEE04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3660D9ED1C83359F00FEE04D /* Build configuration list for PBXNativeTarget "ChromaCatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +589,7 @@
 				3660D9EF1C83359F00FEE04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

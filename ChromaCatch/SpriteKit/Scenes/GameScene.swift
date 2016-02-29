@@ -294,8 +294,8 @@ extension GameScene {
 // MARK: - Structures
 extension GameScene {
     struct PhysicsCategory {
-        static let player = UInt32(1)
-        static let darkBlock = UInt32(2)
-        static let lightBlock = UInt32(4)
+        static let player = UInt32(1 << 0)
+        static let darkBlock = UInt32(1 << 1)
+        static let lightBlock = UInt32(1 << 2)
     }
 }
